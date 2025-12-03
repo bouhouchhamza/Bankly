@@ -75,3 +75,29 @@ INSERT INTO accounts( account_number , balence , account_type , customerid , adv
 VALUE('ACC5210',720.50,'Checking', 3 , 2);
 INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
 VALUE('ACC5000',850.50,'Saving', 3 , 1);
+TRANSICTION*/
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('200.00','debit','2025-01-12 09:30:00',2);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('1200.00','credit','2025-01-13 19:30:00',2);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('100.00','credit','2025-07-29 08:30:00',5);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('600.00','debit','2025-01-17 14:18:00',5);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('8500.00','credit','2025-06-12 16:28:00',3);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('4500','credit','2025-08-12 15:28:00',3);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('9500.00','credit','2025-01-12 20:28:00',4);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('7500','credit','2025-02-12 04:28:00',4);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('4500.00','credit','2025-01-12 19:28:00',6);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('5800','credit','2025-04-12 23:28:00',6);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('1500.00','credit','2025-12-12 06:28:00',7);
+INSERT INTO transactions(amount,transaction_type,transaction_date,accountid)
+VALUE('900','credit','2025-10-19 08:28:00',7);
+/**/
