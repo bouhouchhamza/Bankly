@@ -50,3 +50,28 @@ INSERT INTO advisor(full_name,email)
 VALUE('Karim El Haouari','karim.haouari@bankly.com');
 INSERT INTO advisor(full_name,email)
 VALUE('Hind Lamrini','hind.lamrini@bankly.com');
+/*insert accounts*/
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC2001',7200.50,'Checking', 2 , 1);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC2002',15000.00,'Savings', 2 , 2);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC30010',200.50,'Checking', 3 , 3);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC50010',-100.50,'Checking', 4, 1);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC52010',20.50,'Checking', 3 , 1);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC58000',8500.50,'Saving', 3 , 2);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC901',700.50,'Saving',6, 2);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC202',1500.00,'Savings', 7 , 1);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC3010',-200.50,'Checking', 3 , 3);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC5010',9600.50,'Checking', 4, 1);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC5210',720.50,'Checking', 3 , 2);
+INSERT INTO accounts( account_number , balence , account_type , customerid , advisorid )
+VALUE('ACC5000',850.50,'Saving', 3 , 1);
