@@ -30,3 +30,17 @@ CREATE TABLE transactions(
     accountid int ,
     FOREIGN KEY (accountid) REFERENCES accounts(account_id)
 );
+/*customers insert*/
+INSERT INTO customers( full_name, Email , Phone , Registration_date )
+VALUE('Ayman El Fadili' , 'ayman@gmail.com' , '0612345678', '2024-01-10 10:00:00');
+INSERT INTO customers( full_name, Email , Phone , Registration_date )
+VALUE('Salma Bennis' , 'salma.bennis@yahoo.com' , '0654432211', '2023-11-02 09:30:00');
+INSERT INTO customers( full_name, Email , Phone , Registration_date )
+VALUE('Youssef El Amrani' , 'youssef.am@gmail.com' , '0688997744', '2024-05-20 14:15:00');
+INSERT INTO customers( full_name, Email , Phone , Registration_date )
+VALUE('Sara El Haraki' , 'sara.hrk@gmail.com' , '0678123499', '2023-09-15 16:00:00');
+INSERT INTO customers( full_name, Email , Phone , Registration_date )
+VALUE('Hamza Bouhouch' , 'hamza.dev@gmail.com' , '0667125400', '2024-03-01 08:45:00');
+INSERT INTO customers( full_name, Email , Phone , Registration_date )
+VALUE('Meryem Ouali' , 'meryem.ouali@hotmail.com' , '0644553322', '2025-01-01 12:00:00');
+/*insert advisor*/
