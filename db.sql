@@ -44,3 +44,9 @@ VALUE('Hamza Bouhouch' , 'hamza.dev@gmail.com' , '0667125400', '2024-03-01 08:45
 INSERT INTO customers( full_name, Email , Phone , Registration_date )
 VALUE('Meryem Ouali' , 'meryem.ouali@hotmail.com' , '0644553322', '2025-01-01 12:00:00');
 /*insert advisor*/
+INSERT INTO advisor(full_name,email)
+VALUE('Imane El Moutawakil','imane.moutawakil@bankly.com');
+INSERT INTO advisor(full_name,email)
+VALUE('Karim El Haouari','karim.haouari@bankly.com');
+INSERT INTO advisor(full_name,email)
+VALUE('Hind Lamrini','hind.lamrini@bankly.com');
